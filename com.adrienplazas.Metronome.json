@@ -89,8 +89,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://gitlab.gnome.org/aplazas/metronome/uploads/e3b312c2d3f40b89451edc87aeff144e/metronome-1.0.0.tar.xz",
-                    "sha256": "6b30e4eee02d7db4883809b2b9fec946258928b3fadf25bafb1331f330f95521"
+                    "url": "https://gitlab.gnome.org/aplazas/metronome/uploads/8c0b6d8f7f15fd9f5db408bacecad76f/metronome-1.1.0.tar.xz",
+                    "sha256": "19fd7f14cc03b4500b40045ae6f21d33edfe776a00c929b13abb211a8f0a8807"
                 }
             ]
         }
