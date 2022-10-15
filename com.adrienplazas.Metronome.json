@@ -1,13 +1,14 @@
 {
     "app-id": "com.adrienplazas.Metronome",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "42",
+    "runtime-version": "43",
     "sdk": "org.gnome.Sdk",
     "sdk-extensions": [
         "org.freedesktop.Sdk.Extension.rust-stable"
     ],
     "command": "metronome",
     "finish-args" : [
+        "--share=ipc",
         "--device=dri",
         "--socket=fallback-x11",
         "--socket=pulseaudio",
