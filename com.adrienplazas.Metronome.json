@@ -40,7 +40,7 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://gitlab.gnome.org/World/metronome/uploads/6434b82862b268d2c020a342ec051f88/metronome-1.2.0.tar.xz",
+                    "url": "https://gitlab.gnome.org/World/metronome/uploads/5efb0bac0bd09a15c5b027de4e4e4e32/metronome-1.2.1.tar.xz",
                     "sha256": "3896e6e0a97be7071a42fbf416db8a88d1e89cf662d0ccc7f007e09e13ac2f77"
                 }
             ]
