@@ -15,10 +15,7 @@
         "--socket=wayland"
     ],
     "build-options": {
-        "append-path": "/usr/lib/sdk/rust-stable/bin",
-        "env": {
-            "CARGO_HOME": "/run/build/metronome/cargo"
-        }
+        "append-path": "/usr/lib/sdk/rust-stable/bin"
     },
     "cleanup": [
         "/include",
