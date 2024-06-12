@@ -1,0 +1,36 @@
+From 8dcd0fcdffb6fbbdd8e4ce82e3dd5715cbe5af13 Mon Sep 17 00:00:00 2001
+From: Sabri Ünal <yakushabb@gmail.com>
+Date: Mon, 10 Jun 2024 00:55:01 +0300
+Subject: [PATCH] appdata: Update appdata
+
+- Fix appdata papercuts
+---
+ data/com.adrienplazas.Metronome.metainfo.xml.in.in | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/data/com.adrienplazas.Metronome.metainfo.xml.in.in b/data/com.adrienplazas.Metronome.metainfo.xml.in.in
+index 5075178..9d0c943 100644
+--- a/data/com.adrienplazas.Metronome.metainfo.xml.in.in
++++ b/data/com.adrienplazas.Metronome.metainfo.xml.in.in
+@@ -22,8 +22,9 @@
+   </screenshots>
+   <url type="homepage">https://gitlab.gnome.org/World/metronome</url>
+   <url type="bugtracker">https://gitlab.gnome.org/World/metronome/issues</url>
++  <url type="vcs-browser">https://gitlab.gnome.org/World/metronome</url>
+   <url type="donation">https://liberapay.com/adrienplazas</url>
+-  <content_rating type="oars-1.0" />
++  <content_rating type="oars-1.1" />
+   <releases>
+     <release version="1.3.0" date="2023-06-14">
+       <description>
+@@ -95,7 +96,6 @@
+   <translation type="gettext">@gettext-package@</translation>
+   <launchable type="desktop-id">@app-id@.desktop</launchable>
+   <custom>
+-    <value key="Purism::form_factor">workstation</value>
+     <value key="Purism::form_factor">mobile</value>
+     <value key="GnomeSoftware::key-colors">[(124, 220, 168)]</value>
+   </custom>
+--
+libgit2 1.7.2
+
