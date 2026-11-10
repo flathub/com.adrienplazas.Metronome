@@ -1,7 +1,7 @@
 {
     "id": "com.adrienplazas.Metronome",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "49",
+    "runtime-version": "51",
     "sdk": "org.gnome.Sdk",
     "sdk-extensions": [
         "org.freedesktop.Sdk.Extension.rust-stable"
@@ -20,19 +20,6 @@
             "CARGO_HOME": "/run/build/metronome/cargo"
         }
     },
-    "cleanup": [
-        "/include",
-        "/lib/pkgconfig",
-        "/man",
-        "/share/doc",
-        "/share/gtk-doc",
-        "/share/man",
-        "/share/pkgconfig",
-        "*.la",
-        "*.a",
-        "/lib/girepository-1.0",
-        "/share/gir-1.0"
-    ],
     "modules": [
         {
             "name": "metronome",
